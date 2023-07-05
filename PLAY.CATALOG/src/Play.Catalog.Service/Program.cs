@@ -1,9 +1,5 @@
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
-using MongoDB.Driver;
 using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Repositories;
-using Play.Catalog.Service.Settings;
+using Play.Common.MongoDb;
 
 var builder = WebApplication.CreateBuilder(args);
 
